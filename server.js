@@ -41,9 +41,6 @@ tcpServer.on('connection',function(socket){
     app.dados = JSON.parse(data)
     console.log( app.dados);
 
-    // Avisa ao próprio arduino, que ele mandou uma mensagem.
-    //socket.write('Arduino - Mensagem enviada: ' + data + '.\r\n');
-
   })
 
   io.on("connection", function(socket){

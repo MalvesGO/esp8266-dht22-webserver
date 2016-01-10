@@ -1,0 +1,15 @@
+{
+  "name": "arduino-wifi-nodejs-socketio",
+  "version": "1.0.0",
+  "description": "Comunicação wireless ente ESP8266 nodejs via socketio",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "3.x.x",
+    "socket.io": "1.3.2",
+    "cookie": "0.1.2",
+    "cors": "^2.5.2",
+    "body-parser": "~1.0.0"
+  }
+}
